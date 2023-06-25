@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.73b91b7b.css",
+    "main.js": "/static/js/main.3a8cf8ae.js",
+    "static/js/787.727765b2.chunk.js": "/static/js/787.727765b2.chunk.js",
+    "static/media/home-about-section.svg": "/static/media/home-about-section.dc9611b0fb2b5206d0ab8fcfa77a190d.svg",
+    "static/media/home-top-vec.svg": "/static/media/home-top-vec.a40f2090021b085a67307cdaf032064d.svg",
+    "static/media/lotusimg.svg": "/static/media/lotusimg.0c895c8e6ed5d0099f5cfa0d3589d2f0.svg",
+    "static/media/open-book.png": "/static/media/open-book.3803ac1957087f47dd1a.png",
+    "static/media/musical-note.png": "/static/media/musical-note.6b6443ba7c8418b8552f.png",
+    "static/media/run.png": "/static/media/run.52801e82b2ffa416546c.png",
+    "index.html": "/index.html",
+    "main.73b91b7b.css.map": "/static/css/main.73b91b7b.css.map",
+    "main.3a8cf8ae.js.map": "/static/js/main.3a8cf8ae.js.map",
+    "787.727765b2.chunk.js.map": "/static/js/787.727765b2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.73b91b7b.css",
+    "static/js/main.3a8cf8ae.js"
+  ]
+}
