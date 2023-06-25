@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  min-height: 10vh;
+  align-items: center;
+  font-family: Arial;
+}
+
+nav .logo {
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+nav .nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 32%;
+}
+
+nav .nav-links a {
+  font-size: 18px;
+  font-weight: normal;
+  
+}
+nav .nav-links a:hover {
+  border-bottom: 1px solid black;
+  cursor: pointer ;
+}
+nav .nav-links a:visited {
+  color:black;
+}
+
+nav .burger {
+  font-size: 28px;
+  display: none;
+  cursor: pointer;
+}
+
+.page {
+  text-align: center;
+}
+.home-header {
+  font-family: 'Courgette', cursive;
+  margin-top: 5%;
+  font-size: 31px;
+  margin-bottom: -8%;
+  margin-right: 45%;
+  width: 50%;
+}
+.home-first-vec {
+  z-index: 2;
+  width: 100%;
+}
+.home-about-fish {
+  /* text-align: center; */
+  width: 30%;
+  vertical-align: middle;
+}
+/* .home-feather {
+  z-index: 3;
+  margin-top: -38%;
+  padding-left: 50%;
+} */
+
+.fish-surrounding-home {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -65%;
+}
+.home-surrounding-imgs {
+  width: 1px;
+  padding: 21%;
+}
+.fish-surrounding-home > .home-surrounding-imgs {
+  flex: 50%; /* or - flex: 0 50% - or - flex-basis: 50% - */
+  /*demo*/
+  /* box-shadow: 0 0 0 1px black;
+  margin-bottom: 10px; */
+}
+.home-about-text {
+  margin-top: 7%;
+  font-family: 'Courgette', regular;
+}
+.under-construction-text {
+  text-align: center;
+  margin-top: 15%;
+  font-family: 'Courgette', cursive;
+}
+#home-about-me-title {
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  position: top;
+}
+.footer-div {
+  background-color: black;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.modified-foot {
+  position:absolute;
+  left:0;
+  bottom:0;
+  right:0;
+}
+.flex-container-contact {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+
+}
+.contact-container {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  font-family: 'Courgette', cursive;
+}
+.footer-div .icon-flex {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 40%;
+}
+/* #foot-txt {
+  color: white;
+} */
+#footer-icons {
+  gap: 2px;
+  width: 100%;
+}
+.footer-div .icon-flex a:visited {
+  color: inherit;
+}
+.home-second-section {
+  height: 25%;
+  /* padding-bottom: 15%; */
+  position: relative;
+  margin-top: 10%;
+}
+.fish-surrounding-home img {
+  width: 50px;
+}
+@media all and (max-width: 768px) {
+  /* body {
+    display: none;
+  } */
+  nav .burger {
+    display: block;
+  }
+  nav .nav-links {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    background: #C0C0C0;
+    padding: 40px;
+    width: 50%;
+    transform: translateX(-500px);
+    transition: 0.5s ease-in-out;
+  }
+  nav .nav-links li {
+    padding: 25px;
+  }
+  nav .nav-links li {
+    padding: 25px;
+    border-bottom: 1px solid black;
+  }
+  nav .nav-links li {
+    border-bottom: 0px solid black;
+  }
+  nav .nav-links a:hover {
+    border-bottom: 0px solid black;
+  }
+}
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
