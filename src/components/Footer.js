@@ -12,8 +12,6 @@ function Footer() {
                         elo
                     </div> */}
                     <div id="footer-icons">
-                        <a a href="https://www.facebook.com/asha.raghav.9822/" target="_blank" ><FacebookRoundedIcon sx={{ color: "white" }}/></a>
-                        <a a href="https://www.instagram.com/musicbyasha/?hl=en" target="_blank" ><InstagramIcon  sx={{ color: "white" }}/></a>
                         <a a href="https://www.linkedin.com/in/asha-raghav-a27b86205" target="_blank" ><LinkedInIcon  sx={{ color: "white" }}/></a>
                     </div>
                     {/* Credits: <a href="https://www.flaticon.com/free-icons/books" title="books icons">Books icons created by Freepik - Flaticon</a> 
