@@ -13,8 +13,8 @@ function NavBar() {
         <nav>
             <div className="logo"></div>
                 <ul className="nav-links" style={{transform: open ? "translateX(0px)" : ""}}>
-                    <li><Link to="/"><a>Home</a></Link></li>
-                    <li><Link to="/music"><a>Music ASHA</a></Link></li>
+                    <li><Link to="/"><a>Homepage</a></Link></li>
+                    <li><Link to="/music"><a>Music</a></Link></li>
                     <li><Link to="/blog"><a>Blog</a></Link></li>
                     <li><Link to="/projects"><a>Projects</a></Link></li>
                     <li><Link to="/contact"><a>Contact</a></Link></li>
